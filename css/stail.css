@@ -1,0 +1,264 @@
+
+a{
+    text-decoration: none;
+}
+.taem{
+    background-color: aqua;
+    padding-inline: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 1rem;
+    margin-block: -3rem 1rem;
+}
+.bg-calr{
+    background: #1e202b;
+}
+.navv{
+    padding-block: 4rem 0rem;
+}
+.ankor{
+    display: flex;
+}
+.wats{
+    margin-left: 1rem;
+}
+.wats h1{
+    font-size: 20px;
+}
+.wats small{
+    font-size: 12px;
+}
+.nav-ul li{
+    padding-inline: 1.7rem;
+    padding-block: 0.1rem;
+    margin-inline: 0.4rem;
+}
+.nav-ul li:hover{
+    color: #009AD8;
+    border: 2px solid #009AD8;
+    border-radius: 20px;
+}
+.nav-ul ul {
+    list-style-type: none;
+}
+.nav-ul a{
+    color: #fff;
+}
+.nav-ul li:hover a{
+    color: #009AD8;
+    
+}
+.active{
+    border: 2px solid #009AD8;
+    border-radius: 20px;
+}
+.active a{
+    color: #009AD8;
+}
+.bg-img{
+    background-image: url(../img/banner.png);
+    padding: 3rem;
+    background-size: cover;
+
+}
+form{
+    margin-bottom: 3rem;
+
+}
+#search{
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    border: #1e202b 1px solid;
+    color: white;
+    border-radius: 2rem;
+    
+}
+#submit{
+    right: 0;
+    border-radius: 2rem;
+    margin:0.3rem;
+    padding-block: 0.7rem;
+    border: #009AD8 1px solid;
+    background-color: #009AD8;
+    color: #fff;
+}
+#search1{
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    border: #1e202b 1px solid;
+    color: white;
+    border-radius: 2rem;
+    
+}
+#submit1{
+    right: 0rem;
+    border-radius: 2rem;
+    margin:0.3rem;
+    padding-block: 0.7rem;
+    border: #009AD8 1px solid;
+    background-color: #009AD8;
+    color: #fff;
+}
+.card-clr{
+    background-color:#323544 ;
+}
+.bgcolor{
+    background-color: rgba(0, 0, 0, 0.1);;
+    color: #BFC1C8;
+}
+.card-clr1{
+    background-color: rgba(0, 0, 0, 0.2);;
+}
+.location{
+    color: #BFC1C8;
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+.num{
+    font-size: 90px;
+    font-weight: 700;
+    color: #fff;
+
+}
+.Mist{
+    color:#009AD8 ;
+    margin-bottom: 4px
+}
+.Mist11{
+    color:#009AD8 ;
+    padding-bottom: 2.2rem;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+.calr{
+    color:#BFC1C8 ;
+}
+.textwat{
+    color: #BFC1C8;
+}
+.bg-clar{
+    background-color: #262936;
+    padding: 3rem;
+}
+.aa {
+    background-color: #1e202b;
+    padding: 7px 2px;
+    border-radius: 50%;
+}
+.aa:hover{
+    background-color: #009ad8;;
+}
+.aa:hover.aa i{
+    color: #fff;
+}
+.aa i {
+    font-size: 18px;
+    color: #009AD8;
+    margin-inline: 0.6rem;
+}
+footer p{
+    color:#BFC1C8 ;
+    margin-bottom: -0.1rem;
+}
+
+/* index.html1 */
+
+.bg-img1{
+    background-color: #1e202b;
+    padding: 3rem;
+}
+.clarbg{
+    color: #BFC1C8;
+    width: 100%;
+    height: 4rem;
+    background-color: #262936;
+    border-radius: 2rem;
+    margin-bottom: 4rem;
+}
+.clarbg a{ 
+    color: #BFC1C8;
+}
+.clarbg a i{ 
+    color: #BFC1C8;
+    font-size: 14px;
+    padding-inline: 1rem;
+}
+
+.bgclaar{
+    border-radius: 1rem;
+}
+.bgclaar1{
+    
+    padding: 7rem;
+    background-color: #262936;
+    border-radius:10px 10px 0px 0px;
+    
+}
+.bgclaar2{
+    background-color: #262936;
+    border-radius: 0px 0px 10px 10px;
+}
+.iii{
+    color: #009AD8;
+    font-size: 20px;
+    padding-inline: 1rem;
+}
+.ip p{
+    color: #BFC1C8;
+}
+.it{
+    color: #BFC1C8;
+    padding-right: 1rem;
+}
+
+.ie{
+    color: #BFC1C8;
+}
+.ie{
+    color: #BFC1C8;
+}
+.Contact h2{
+    color: #fff;
+}
+.Contact p{
+    color: #BFC1C8;
+    
+}
+.inpt{
+    padding: 0.5rem;
+}
+.inpt input{
+    padding: 0.5rem;
+    color: #fff;
+    width: 100%;
+    background-color: #1e202b;
+    border: #323544 2px solid;
+    border-radius: 2rem;
+}
+.inpt input:hover{
+    border: #009AD8 2px solid;
+}
+textarea{
+    background-color: #1e202b;
+    border: #323544 2px solid;
+    border-radius: 2rem;
+    height: 8rem;
+    min-height:8rem ;
+    max-height: 8rem;
+}
+textarea:hover{
+    border: #009AD8 2px solid;
+   
+}
+.submit{
+    text-align: right;
+}
+.submit input{
+    color: #fff;
+    background-color: #009AD8;
+    border: #009ad8 1px solid;
+    font-size: 14px;
+    padding-inline: 15px;
+    padding-block: 5px;
+    border-radius: 5px;
+}

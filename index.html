@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/stail.css">
+  <title>Weather</title>
+</head>
+
+<body>
+
+  <section>
+    <div class=" bg-calr ">
+      <nav class="container  navv d-flex justify-content-between">
+        <a href="#" class="text-decoration-none mx-5 text-white ankor">
+          <div class=""><img src="img/logo.png" alt=""></div>
+          <div class="wats">
+            <h1>Weather</h1>
+            <small>tagline goes here</small>
+          </div>
+        </a>
+        <div class="nav-ul mx-5">
+          <ul class="d-flex">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Live cameras</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="index1.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="taem">
+        <h2 class="hh2">00:00:00</h2>
+      </div>
+    </div>
+
+    <div class="">
+      <div class="bg-img">
+        <form class="find-location container ">
+          <div class="row position-relative mx-5 ">
+            <input class="col-md-12 py-3 " type="text" placeholder="Find your location..." id="search">
+            <input onclick="searchdata()" class="position-absolute col-md-1" type="button" value="Find" id="submit">
+          </div>
+        </form>
+        <div class="container">
+
+          <div class="row g-0">
+
+            <div class="col-md-4">
+              <div class="card-clr">
+                <div class="d-flex justify-content-between bgcolor text-white p-2">
+                  <div class="">Saturday</div>
+                  <div class="todeay1">29December</div>
+                </div>
+                <div class="">
+                  <div class="location location1 pt-2 px-4 ">Cairo</div>
+                  <div class="d-flex">
+                    <div id="todey" class="num px-4">17<sup>o</sup>C</div>
+                    <div id="imgdey" class="mt-5 px-2 "><img src="./img/143.webp" alt=""></div>
+                  </div>
+                  <div id="weather" class="px-4 py-3 Mist">Mist</div>
+
+                  <div class=" px-3 pb-4 calr ">
+                    <span class="px-2"> <img src="./img/icon-umberella.png" alt=""> 20% </span>
+                    <span class="px-2"> <img src="./img/icon-wind.png" alt=""> 18km/h </span>
+                    <span class="px-2"> <img src="./img/icon-compass.png" alt=""> East </span>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card-clr">
+                <div class="card-clr1">
+                  <div class="d-flex justify-content-center bgcolor text-white p-2">
+                    <div class="todeay2">Monday</div>
+                  </div>
+                  <div class="">
+                    <div id="imgdey1" class="mt-5 px-5 pb-4 text-center"><img src="./img/113.webp" alt=""></div>
+                    <div class=" text-center">
+                      <div id="dey1" class="text-white fa-2x px-4">20.7<sup>o</sup>C</div>
+                      <div id="dey2" class="textwat px-4">13.3<sup>o</sup></div>
+                    </div>
+                    <div class="Mist1 Mist11">Sunny</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-4">
+              <div class="card-clr">
+                <div class="d-flex justify-content-center bgcolor text-white p-2">
+                  <div class="todeay3">Tuesday</div>
+                </div>
+                <div class="">
+                  <div id="imgdey2"  class="mt-5 px-5 pb-4 text-center"><img src="./img/113.webp" alt=""></div>
+                  <div class=" text-center">
+                    <div id="dey3" class="text-white fa-2x px-4">21.2<sup>o</sup>C</div>
+                    <div id="dey4" class="textwat px-4">13.8<sup>o</sup></div>
+
+                  </div>
+                  <div class="Mist2 Mist11">Sunny</div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-clar">
+      <div class="container ">
+        <div class="row gx-4">
+          <form class="find-location  col-md-8">
+            <div class="row position-relative mx-1 ">
+              <input class="col-md-12 py-3 " type="text" placeholder="Enter your emali to subscribe..." id="search1">
+              <input class="position-absolute col-md-2" type="button" value="Subscribe" id="submit1">
+            </div>
+          </form>
+          <div class="col-md-3 pt-3 mx-5 px-3">
+            <a class="aa" href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a class="aa" href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a class="aa" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a class="aa" href="#"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+          <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+      </div>
+
+    </footer>
+
+  </section>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
